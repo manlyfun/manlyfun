@@ -4,7 +4,7 @@
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 
-a link will appear here.
+Click <a href="Guy1.htm">here</a> to enter site!
 
 <!---
 manlyfun/manlyfun is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
