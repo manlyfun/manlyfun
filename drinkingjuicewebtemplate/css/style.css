@@ -1,0 +1,490 @@
+/* Website template by freewebsitetemplates.com */
+@font-face {
+	font-family: 'PTSerifCaption-Regular';
+	src: url('../fonts/pt_serif-caption-web-regular-webfont.eot');
+	src: url('../fonts/pt_serif-caption-web-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/pt_serif-caption-web-regular-webfont.woff') format('woff'), url('../fonts/pt_serif-caption-web-regular-webfont.ttf') format('truetype'), url('../fonts/pt_serif-caption-web-regular-webfont.svg#PTSerifCaption-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'PTSerifCaption-Italic';
+	src: url('../fonts/PT_Serif-Caption-Web-Italic.eot');
+	src: local('☺'), url('../fonts/PT_Serif-Caption-Web-Italic.woff') format('woff'), url('../fonts/PT_Serif-Caption-Web-Italic.ttf') format('truetype'), url('../fonts/PT_Serif-Caption-Web-Italic.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+body {
+	background: url(../images/bg-body.jpg) repeat;
+	font-family: 'PTSerifCaption-Regular', 'Times New Roman', Times, serif;
+	margin: 0;
+}
+img {
+	border: 0;
+}
+/*------------------------------ CSS Sprites ------------------------------*/
+#logo a, #footer .logo {
+	background: url(../images/logo.png) no-repeat;
+}
+#navigation li a:hover, #navigation li.selected a, #navigation li.last a, #navigation li.last.selected a, #main div div a.more {
+	background: url(../images/buttons.png) no-repeat;
+}
+#main, #body div.footer div.background {
+	background: url(../images/bg-content.jp) no-repeat;
+}
+/*------------------------------ HEADER ------------------------------*/
+#header {
+	background: url(../images/bg-header.png) repeat-x;
+	width: 100%;
+	height: 126px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#header div {
+	width: 960px;
+	margin: 0 auto;
+}
+/** Logo **/
+#header div#logo {
+	float: left;
+	height: 126px;
+	width: 261px;
+}
+#header div#logo a {
+	background-position: 0 0;
+	display: block;
+	height: 126px;
+	width: 261px;
+}
+/** Navigation **/
+#navigation {
+	float: right;
+	background-color: #fdbe5d;
+	display: inline-block;
+	width: 541px; /*change to 341 to shorten the size*/
+	list-style: none;
+	border-radius: 3px;
+	margin: 39px 0 0;
+	padding: 0;
+}
+#navigation li {
+	float: left;
+	background: url(../images/menu-separator.gif) no-repeat left top;
+	padding-left: 2px;
+}
+#navigation li a {
+	color: #b06009;
+	display: block;
+	font-weight: bold;
+	line-height: 48px;
+	height: 48px;
+	width: 119px;
+	outline: 0;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 1px 1px #fcd173;
+}
+#navigation li a:hover, #navigation li.selected a {
+	background-position: 0 0;
+	color: #eff0ea;
+	text-shadow: 1px 1px #c9732a;
+}
+#navigation li:first-child {
+	background: none;
+	padding-left: 0;
+}
+#navigation li:first-child a:hover, #navigation li:first-child.selected a {
+	border-bottom-left-radius: 3px;
+	border-top-left-radius: 3px;
+}
+#navigation li.last a {
+	background-position: right 0;
+	width: 178px;
+}
+#navigation li.last a:hover, #navigation li.last.selected a {
+	background-position: -129px 0;
+}
+/*------------------------------ CONTENTS ------------------------------*/
+#body {
+	background-color: #8F070B;
+	min-height: 606px;
+}
+/** MAIN **/
+#main {
+	background-position: center top;
+	height: 100px;
+	padding-top: 116px;
+}
+#main div {
+	min-height: 480px;
+	width: 960px;
+	margin: 0 auto;
+	padding: 0;
+}
+#main div div {
+	width: 400px;
+	margin: 0;
+	padding-top: 30px;
+}
+#main div div h2 {
+	background: url(../images/shadow-heading.png) no-repeat left bottom;
+	color: #e39419;
+	font: normal 24px/36px 'PTSerifCaption-Italic';
+	width: 406px;
+	margin: 0;
+	padding: 0 0 30px;
+}
+#main div div p {
+	color: #838282;
+	font-size: 12px;
+	line-height: 22px;
+	margin: 0;
+	padding: 0 8px 24px 0;
+	text-align: justify;
+}
+#main div div p a {
+	color: #838282;
+}
+#main div div a.more {
+	background-position: right bottom;
+	display: block;
+	height: 48px;
+	width: 206px;
+	outline: 0;
+}
+#main div div a.more:hover {
+	background-position: 0 bottom;
+}
+#main div div p a:hover, #contents p a:hover,
+#juices div.details p a:hover, #blogs ul li p a:hover {
+	color: #b95050;
+	text-shadow: none;
+}
+/*------------------------------ Inner Pages ------------------------------*/
+#contents {
+	color: #615f60;
+	line-height: 50px;
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 150px;
+}
+#contents p {
+	color: #838282;
+	font-size: 12px;
+	line-height: 22px;
+	margin: 0;
+	padding: 0 0 24px;
+	text-align: justify;
+	text-shadow: 0 1px #fefcfc;
+}
+#contents p em {
+	color: #950c11;
+	display: block;
+}
+#contents p a {
+	color: #838282;
+}
+#contents div.last {
+	position: relative;
+}
+#contents div.last p {
+	width: 590px;
+}
+#contents div.last img {
+	position: absolute;
+	right: 0;
+	bottom: -150px;
+}
+/** Blog Page **/
+#blogs ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#blogs ul li {
+	height: 386px;
+	padding: 0 0 24px;
+}
+#blogs ul li img {
+	background-color: #fffeff;
+	padding: 3px;
+}
+#blogs ul li span {
+	float: right;
+	color: #e9870c;
+	font-size: 10px;
+	font-style: italic;
+	line-height: 12px;
+	padding-top: 6px;
+}
+#blogs ul li span.image {
+	float: left;
+	background: url(../images/shadow-content-images.png) no-repeat center bottom;
+	display: inline;
+	margin-right: 30px;
+	padding: 0 0 4px;
+ *padding: 0 0 6px;/** Needed for IE7 **/
+}
+#blogs ul li h3 {
+	color: #9b1116;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 0 0 6px;
+}
+#blogs ul li p {
+	color: #fdbe5d;
+	font-size: 12px;
+	line-height: 22px;
+	margin: 0;
+	padding: 0 0 16px;
+	text-align: justify;
+}
+#blogs ul li p a {
+	color: #626164;
+}
+#blogs ul li a.more {
+	color: #c72429;
+	font-size: 12px;
+	outline: 0;
+	text-decoration: none;
+}
+#blogs div.pages {
+	margin-bottom: 10px;
+	text-align: center;
+}
+#blogs div.pages span {
+	display: inline-block;
+	margin: 0 auto;
+	padding: 6px 0;
+}
+#blogs div.pages span a {
+	color: #9f9b6f;
+	font: 12px/12px Arial, Helvetica, sans-serif;
+	margin: 0 2px;
+	padding: 0 4px;
+	outline: 0;
+	text-decoration: none;
+}
+#blogs div.pages span a:hover {
+	color: #f50c0c;
+}
+/** Juice Page **/
+#juices {
+	display: inline-block;
+	padding: 0 0 25px;
+}
+#juices span {
+	float: right;
+	color: #e9870c;
+	font-size: 12px;
+	font-style: italic;
+	line-height: 12px;
+	padding-top: 6px;
+}
+#juices h3 {
+	color: #971515;
+	line-height: 24px;
+	margin: 0;
+	padding: 0 0 6px;
+}
+#juices div.images {
+	float: left;
+	width: 301px;
+	padding-right: 29px;
+}
+#juices div.images img {
+	background-color: #fffeff;
+	padding: 3px;
+}
+#juices div.images span {
+	background: url(../images/shadow-content-images.png) no-repeat center bottom;
+	display: inline;
+	padding: 0 0 4px;
+ *padding: 0 0 6px;/** Needed for IE7 **/
+}
+#juices div.details {
+	float: right;
+	width: 630px;
+}
+#juices div.details p {
+	font-size: 12px;
+	line-height: 24px;
+}
+#juices div.details a.back {
+	color: #c72429;
+	font-size: 12px;
+	outline: 0;
+	text-decoration: none;
+}
+#juices div.details a.back:hover, #blogs ul li a.more:hover {
+	color: #fcbe5d;
+}
+/*------------------------------ End Inner Pages style ------------------------------*/
+
+#body div.footer {
+	background: url(../images/bg-body.jpg) repeat;
+	border-top: 1px solid #e95758;
+}
+#body div.footer div.background {
+	background-position: center -618px;
+	margin-top: -1px;
+}
+#body div.footer div.background div, #body div.sections {
+	min-height: 290px;
+	width: 960px;
+	margin: 0 auto;
+}
+#articles {
+	width: 560px;
+	list-style: none;
+	margin: 0;
+	padding: 30px 30px 0 0;
+}
+#articles .single-list {
+	padding-top: 60px;
+}
+#articles li {
+	height: 144px;
+	margin-bottom: 30px;
+}
+#articles li span {
+	float: left;
+	background: url(../images/shadow-thumbnails.png) no-repeat center bottom;
+	display: inline-block;
+	margin-right: 20px;
+	padding-bottom: 4px;
+ *padding-bottom: 9px;/** Needed for IE7 **/
+}
+#articles li img {
+	background-color: #fff;
+	padding: 3px;
+}
+#articles li p {
+	color: #300300;
+	font-size: 12px;
+	line-height: 20px;
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: justify;
+	text-shadow: 1px 1px #ba1d24;
+}
+#articles li p a {
+	color: #300300;
+}
+#articles li a.more {
+	color: #ffdaad;
+	font-size: 12px;
+	font-style: italic;
+	text-decoration: none;
+	outline: 0;
+}
+#articles li p a:hover, #articles li a.more:hover {
+	color: #f50c0c;
+	text-shadow: none;
+}
+#body div#sidebar {
+	float: right;
+	width: 330px;
+	padding: 30px 5px 0 35px;
+}
+#body div#sidebar span.dummy {
+	display: block;
+	height: 260px;
+}
+#body div#sidebar h2 {
+	color: #fcb654;
+	font: normal 18px/24px 'PTSerifCaption-Italic';
+	margin: 0;
+	padding: 0 0 10px;
+	text-align: center;
+	text-shadow: 1px 1px #250400;
+}
+#body div.sections div#sidebar span.dummy {
+	height: 150px;
+}
+#connect {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+#connect li {
+	background: url(../images/bg-connect.png) no-repeat center top;
+	width: 306px;
+	padding: 45px 5px 0 19px;
+	margin-top: -15px;
+}
+#connect li:first-child {
+	background: none;
+	margin-top: 0;
+	padding-top: 30px;
+}
+#connect li a {
+	background: url(../images/icons.png) no-repeat;
+	color: #f0f0e4;
+	display: block;
+	font: normal 18px/24px 'PTSerifCaption-Italic';
+	height: 28px;
+	width: 220px;
+	margin: 0 auto;
+	text-decoration: none;
+	text-shadow: 1px 1px #030000;
+}
+#connect li a:hover {
+	color: #f50c0c;
+}
+#connect li a.googleplus {
+	background-position: 0 0;
+}
+#connect li a.facebook {
+	background-position: 0 -38px;
+}
+#connect li a.twitter {
+	background-position: 0 -76px;
+}
+/*------------------------------ FOOTER ------------------------------*/
+#footer {
+	background: url(../images/bg-footer.png) no-repeat center top;
+	color: #3b0c06;
+	font: 10px/18px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	width: 940px;
+	margin: 0 auto;
+	padding: 60px 10px 30px;
+	text-align: center;
+	text-shadow: 1px 1px #c6101c;
+}
+#footer span.logo {
+	background-position: 0 -138px;
+	display: block;
+	height: 50px;
+	width: 167px;
+	margin: 0 auto 12px;
+}
+#footer ul {
+	display: inline-block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+ *width: 165px;/** Needed for IE7 **/
+}
+#footer ul li {
+	float: left;
+}
+#footer ul li a {
+	color: #3b0c06;
+	border-right: 1px solid #3b0c06;
+	padding: 0 5px;
+	text-decoration: none;
+}
+#footer ul li.last a {
+	border: 0;
+}
+#footer ul li a:hover, #footer ul li.selected a {
+	color: #f50c0c;
+	text-shadow: none;
+}
+#footer span {
+	display: block;
+}
