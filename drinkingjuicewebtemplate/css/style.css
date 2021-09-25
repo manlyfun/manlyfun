@@ -16,7 +16,8 @@
 body {
 	background: url(../images/bg-body.jpg) repeat;
 	/*font-family: 'PTSerifCaption-Regular', 'Times New Roman', Times, serif;*/
-	font-family: 'Yaldevi', sans-serif;
+	/*font-family: 'Yaldevi', sans-serif;*/
+	font-family: 'Open Sans', sans-serif;
 	margin: 0;
 }
 img {
@@ -234,7 +235,7 @@ img {
 	margin: 0;
 	padding: 0 0 6px;
 }
-#blogs ul li p { /* font for body text*/
+#blogs ul li p { /* font size for body text*/
 	color: #fdbe5d;
 	font-size: 20px;
 	line-height: 22px;
